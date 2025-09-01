@@ -22,11 +22,11 @@ function Sliderhome() {
         <div className="carousel-inner">
           {/* Slide 1 */}
           <div className="carousel-item active" data-bs-interval="5000">
-            <img src={Slider1} className="d-block w-100 slider-img" alt="Slide 1" />
+            <img src={Slider3} className="d-block w-100 slider-img" alt="Slide 1" />
             <div className="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
-              <h1 className="display-5 fw-bold text-white">Simplify Oracle EBS with AI-Powered Natural Language Queries</h1>
-              <p className="lead text-light w-75 mx-auto">Driven by people, powered by innovation, and guided by cost efficiency and excellence—that’s our identity.</p>
-              <a href="/service" className="btn btn-outline-light mt-3">Learn More</a>
+              <h1 className="display-5 fw-bold text-white">Next-Gen Custom Software Solutions</h1>
+              <p className="lead text-light w-75 mx-auto">Custom-built applications that integrate seamlessly with your systems or operate as standalones, designed for your unique business needs.</p>
+              <a href="/service" className="btn btn-outline-light mt-3">Request Demo</a>
             </div>
           </div>
 
@@ -40,13 +40,14 @@ function Sliderhome() {
             </div>
           </div>
 
-          {/* Slide 3 */}
+          {/* Slide 3 */}         
+
           <div className="carousel-item" data-bs-interval="5000">
-            <img src={Slider3} className="d-block w-100 slider-img" alt="Slide 3" />
+            <img src={Slider1} className="d-block w-100 slider-img" alt="Slide 3" />
             <div className="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
-              <h1 className="display-5 fw-bold text-white">Next-Gen Custom Software Solutions</h1>
-              <p className="lead text-light w-75 mx-auto">Custom-built applications that integrate seamlessly with your systems or operate as standalones, designed for your unique business needs.</p>
-              <a href="/service" className="btn btn-outline-light mt-3">Request Demo</a>
+              <h1 className="display-5 fw-bold text-white">Simplify Oracle EBS with AI-Powered Natural Language Queries</h1>
+              <p className="lead text-light w-75 mx-auto">Driven by people, powered by innovation, and guided by cost efficiency and excellence—that’s our identity.</p>
+              <a href="/service" className="btn btn-outline-light mt-3">Learn More</a>
             </div>
           </div>
         </div>
